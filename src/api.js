@@ -7,6 +7,7 @@ const searchImages = async (term) => {
       params: {
         q: term,
         hasImages: 'true',
+        isPublicDomain: 'true',
       },
     }
   );
