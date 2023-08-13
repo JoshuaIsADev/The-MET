@@ -30,7 +30,7 @@ const searchObjects = async (term) => {
       );
       return result.data;
     } catch (error) {
-      return null;
+      return [];
     }
   }
 
